@@ -1,0 +1,143 @@
+/*Variables*/
+/*configuracion basica*/
+@font-face {
+    font-family: 'JosefinSlab-VariableFont_wght';
+    src: url(../../fonts/Josefin_Slab/JosefinSlab-VariableFont_wght.ttf); }
+  
+  @font-face {
+    font-family: 'Oswald';
+    src: url(../../fonts/Oswald/Oswald-VariableFont_wght.ttf); }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none; }
+  
+  html {
+    font-size: 62.5%;
+    height: 100%; }
+  
+  body {
+    background: white;
+    background-image: url("../../img/cool-background.png");
+    background-position: right center;
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 200px; }
+  
+  /*Logos*/
+  .logo {
+    height: 100%;
+    display: block;
+    content: url(../../img/logo-nobg.png); }
+  
+  .logo--header {
+    height: 70px;
+    display: table-cell;
+    vertical-align: middle; }
+  
+  .logo--footer {
+    width: 190px;
+    margin: 0 auto;
+    height: 55%;
+    display: block; }
+  
+  /*Logos*/
+  /*Portadas libros*/
+  /*Portadas libros*/
+  /*Dividers*/
+  .divider {
+    position: relative;
+    height: 3px; }
+  
+  .div-transparent:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, #303133, transparent); }
+  
+  .div-dot:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -9px;
+    left: calc(50% - 9px);
+    width: 18px;
+    height: 18px;
+    background-color: #620000;
+    border: 1px solid #303133;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px white,
+   0 0 0 4px white; }
+  
+  /*Dividers*/
+  /*Configuracion del header*/
+  .header {
+    width: 100%;
+    background-color: #620000; }
+  
+  .header__inner {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto; }
+  
+  .header__logo {
+    height: 100%;
+    display: table;
+    float: left; }
+  
+  .header__listItems {
+    display: table;
+    height: 100%;
+    float: left;
+    text-decoration: none; }
+  
+  .header__itemLinks {
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    height: 100%;
+    padding: 10px;
+    color: white;
+    font-family: 'Oswald';
+    font-size: 2rem;
+    font-weight: lighter; }
+  
+  a:visited, a:link, a:active {
+    text-decoration: none; }
+  
+  a:hover {
+    text-decoration: none;
+    color: white;
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1); }
+  
+  .header__searchBar {
+    display: table-cell;
+    height: 32px;
+    vertical-align: middle; }
+  
+  .header__searchInput {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Oswald';
+    font-size: 2rem;
+    margin-left: 30px; }
+  
+  .header__searchButton {
+    background: none;
+    border: 3px solid white;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Oswald';
+    color: white;
+    font-size: 2rem;
+    padding-right: 2px;
+    padding-left: 2px; }
+  
+  /*Fin header*/
